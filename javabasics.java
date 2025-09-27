@@ -82,5 +82,11 @@ public class javabasics {
         /* int A = 10;
         int B = 5;
         System.out.println("multiply = " + (A * B)); */
+        
+        //Relational Operators
+        int A = 10;
+        int B = 5;
+        System.out.println((A != B));
+
     } 
 }
