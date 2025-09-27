@@ -78,5 +78,9 @@ public class javabasics {
         /* byte a = 5;
         byte b = (byte) (a * 2);
         System.out.println(b); */
+        //Operators
+        /* int A = 10;
+        int B = 5;
+        System.out.println("multiply = " + (A * B)); */
     } 
 }
