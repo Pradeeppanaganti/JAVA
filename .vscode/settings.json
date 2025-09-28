@@ -1,0 +1,6 @@
+{
+  "java.import.gradle.enabled": false,
+  "java.import.maven.enabled": false,
+  "java.referencesCodeLens.enabled": false,
+  "java.format.enabled": true
+}
