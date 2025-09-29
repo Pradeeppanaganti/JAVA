@@ -73,7 +73,7 @@ class practise {
 // Output will be X = FALSE AND Y = 63 
 
 // Practise Question 5
-
+/* 
 import java.util.*;
 public class practise {
     public static void main(String args[]) {
@@ -86,4 +86,5 @@ public class practise {
             System.out.println("The year is not a Leap year");
         }
     }
-}
+} */
+
