@@ -252,7 +252,6 @@ public class functions {
 //Practise
 
 import java.util.*;
-import java.util.function.IntUnaryOperator;
 public class functions {
 
     //is prime function
