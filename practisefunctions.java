@@ -105,7 +105,7 @@ public class practisefunctions {
 
 //Palindrome or not
 
-import java.util.*;
+/* import java.util.*;
 public class practisefunctions {
     public static boolean ispalindrome(int n) {
 
@@ -125,4 +125,5 @@ public class practisefunctions {
         System.out.println(ispalindrome(n));
         sc.close();
     }
-}
+} */
+

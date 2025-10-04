@@ -80,6 +80,7 @@ public class adv_patterns {
  */
 
 //Advanced Patterns
+/* 
 import java.util.*;
 public class adv_patterns {
     public static void pattern(int n) {
@@ -95,4 +96,4 @@ public class adv_patterns {
         int n = sc.nextInt();
         pattern(n);
     }
-}
+} */
