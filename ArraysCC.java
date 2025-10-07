@@ -359,7 +359,7 @@ public class ArraysCC {
  */
 
 // Trapped Rain Water
-
+/* 
 public class ArraysCC {
     public static void trappedWater (int number []) {
         int n = number.length;
@@ -420,5 +420,30 @@ public class ArraysCC {
     public static void main(String args[]) {
         int number [] = {4,2,0,6,3,2,5};
         trappedWater(number);
+    }
+} */
+
+// Best Time to buy and Sell Stocks
+
+public class ArraysCC {
+
+    public static int buyAndSellstocks (int prices []) {
+        int buyPrice = Integer.MAX_VALUE;
+        int maxProfit = 0;
+
+        for (int i = 0; i < prices.length; i++) {
+            if (buyPrice < prices[i] ) { //profit
+                int Profit = prices[i] - buyPrice ; //todays profit
+                maxProfit = Math.max(maxProfit , Profit); // global profit
+            } else {
+                buyPrice = prices[i];
+            }
+        }
+        return maxProfit;
+    }
+    public static void main(String args[]) {
+        int prices [] = {7, 1 , 5 , 3, 6, 4}; // O(n)
+        System.out.println(buyAndSellstocks(prices));
+
     }
 }
