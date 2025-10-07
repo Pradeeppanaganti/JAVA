@@ -237,6 +237,8 @@ public class javabasics {
 } */
 
 // Check if a number is prime or not
+
+/* 
 import java.util.*;
 public class javabasics {
     public static void main(String args[]) {
@@ -259,8 +261,7 @@ public class javabasics {
             System.out.println("n is not Prime");
         }
     }
-}
-
+} */
 public class javabasics {
     public static void main(String args[]) {
         /* byte a = 5;
