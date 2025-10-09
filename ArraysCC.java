@@ -424,7 +424,7 @@ public class ArraysCC {
 } */
 
 // Best Time to buy and Sell Stocks
-
+/* 
 public class ArraysCC {
 
     public static int buyAndSellstocks (int prices []) {
@@ -446,4 +446,70 @@ public class ArraysCC {
         System.out.println(buyAndSellstocks(prices));
 
     }
+} */
+
+// Checking Dublicate Array
+/* 
+public class ArraysCC {
+    public static boolean checkDubArray(int nums[]) {
+        // Simple approach: check each element against all following elements
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] == nums[j]) {
+                    return true; // Found duplicate
+                }
+            }
+        }
+        return false; // No duplicates found
+    }
+
+    public static void main(String args[]) {
+        int nums [] = {1,2,3,1};
+        System.out.println(checkDubArray(nums));
+    }
+} */
+
+// Search in Rotated Sorted Array
+
+/* public class ArraysCC {
+    public static int Search(int nums[], int Target) {
+        int low = 0;
+        int high = nums.length - 1;
+
+        while (low <= high) {
+            int mid = (low + high) / 2;  // Calculate mid inside loop
+            
+            if (nums[mid] == Target) {  // Compare array element, not index
+                return mid;
+            }
+            
+            // Check if left half is sorted
+            if (nums[low] <= nums[mid]) {
+                if (Target >= nums[low] && Target < nums[mid]) {
+                    high = mid - 1;  // Search left half
+                } else {
+                    low = mid + 1;   // Search right half
+                }
+            }
+            // Right half is sorted
+            else {
+                if (Target > nums[mid] && Target <= nums[high]) {
+                    low = mid + 1;   // Search right half
+                } else {
+                    high = mid - 1;  // Search left half
+                }
+            }
+        }
+        return -1;
+    }
+    public static void main(String args[]) {
+        int nums [] = {4, 5, 6, 7, 0, 1, 2};
+        int Target = 0;
+        System.out.println(Search(nums,Target));
+    }
+} */
+
+public static void main(String args[]) {
+    int nums [] = {1,2,3,4};
+    System.out.println(nums[nums.length - 1]);
 }
