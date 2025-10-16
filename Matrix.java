@@ -1,5 +1,5 @@
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
 /* import java.util.Scanner;
 
@@ -137,7 +137,7 @@ public class Matrix {
 } */
 
 // Write a program to FindTransposeofa Matrix.
-
+/* 
 public class Matrix {
     
     public static int[][] transpose(int matrix [][]) {
@@ -161,4 +161,4 @@ public class Matrix {
         int[][] matrix = {{1,4,9},{11,4,3},{2,2,3}};
         transpose(matrix);
     }
-}
+} */
