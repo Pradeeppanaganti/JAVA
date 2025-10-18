@@ -1,77 +1,9 @@
-/* // Strings 
-
-//Problem 1: Find shortest path distance from origin after directional moves
-public class Day18 {
-    public static float shortestPath(String pattern) {
-        int x = 0;  // x-coordinate
-        int y = 0;  // y-coordinate
-        
-        for(int i = 0; i < pattern.length(); i++) {
-            char dir = pattern.charAt(i);
-            // Use switch instead of if-else chain
-            switch(dir) {
-                case 'N':  // North
-                    y++;
-                    break;
-                case 'S':  // South
-                    y--;
-                    break;
-                case 'E':  // East
-                    x++;
-                    break;
-                case 'W':  // West
-                    x--;
-                    break;
-            }
-        }
-        
-        // Calculate shortest distance using Pythagorean theorem
-        // Distance = √(x² + y²)
-        int X2 = x * x;
-        int Y2 = y * y;
-        return (float)Math.sqrt(X2 + Y2);
-    }
-    
-    public static void main(String args[]) {
-        String pattern = "WNEENESENNN";
-        System.out.println("Shortest Path Distance: " + shortestPath(pattern));
-    }
-} */
-/* 
-import java.util.*;
-public class Day18 {
-    public static float shortestPath (String pattern) {
-        int x = 0;
-        int y = 0;
-        for(int i = 0; i < pattern.length(); i++) {
-            char dir = pattern.charAt(i);
-            switch(dir) {
-                case 'N' :
-                    y++;
-                case 'E' :
-                    x++;
-                case 'S' :
-                    y--;
-                case 'W' :
-                    x--;
-            }
-        }
-        //Distance 
-            int x2 = x * x;
-            int y2 = y * y;
-            return (float) Math.sqrt(x2 + y2);
-    }
-    public static void main(String args[]) {
-        String pattern = "WESNNSWWWEENNN";
-        System.out.println(shortestPath(pattern));
-    }
-} */
 
 // STRING FUNCTIONS 
 
 //Compare
 
-/* public class Day18 {
+/* public class Day19 {
     public static void main(String args[]) {
         String str = "Pradeep";
         String str1 = "Pradeep";
@@ -130,7 +62,7 @@ public class Day18 {
     }
 } */
 
-/* public class Day18 {
+/* public class Day19 {
     public static void greatest(String fruits[]) {
         String largest = fruits[0];
         for(int i = 0; i < fruits.length ; i++) {
@@ -153,7 +85,7 @@ public class Day18 {
 
 // String Builder
 /* 
-public class Day18 {
+public class Day19 {
     public static void main(String args[]) {
         StringBuilder Alphabets = new StringBuilder("");
 
@@ -168,7 +100,7 @@ public class Day18 {
 // Changing the first letter of words in the sentence to Capital
 /* 
 import java.util.*;
-public class Day18 {
+public class Day19 {
     public static String toUpperCase(String str) {
         StringBuilder sb = new StringBuilder("");
 
@@ -196,7 +128,7 @@ public class Day18 {
 
 //String Compression
 /* 
-public class Day18 {
+public class Day19 {
     public static String stringCompression(String str) {
         StringBuilder sb = new StringBuilder("");
         for(int i = 0; i < str.length(); i++) {
