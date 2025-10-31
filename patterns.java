@@ -167,7 +167,7 @@ public class patterns {
 // 1 0 1
 // 0 1 0 1
 // 1 0 1 0 1
-
+/* 
 import java.util.*;
 public class patterns {
     public static void main(String args[]) {
@@ -194,3 +194,4 @@ public class patterns {
         }
     }
 }
+ */

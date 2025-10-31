@@ -1,1 +1,0 @@
-System.out.println(clearBits(n,i,j));

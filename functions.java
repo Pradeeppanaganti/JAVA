@@ -250,7 +250,7 @@ public class functions {
 
 
 //Practise
-
+/* 
 import java.util.*;
 public class functions {
 
@@ -313,5 +313,6 @@ public class functions {
         System.out.println("Enter the number Change:");
         int num = sc.nextInt();
         decToBin(num);
+        sc.close();
     }
-} 
+}  */
